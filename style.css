@@ -1,0 +1,27 @@
+.image_container {
+	height: 120px;
+	width: 200px;
+	border-radius: 6px;
+	overflow: hidden;
+ 	margin: 10px;
+}
+.image_container img {
+	height: 100%;
+	width: auto;
+	object-fit: cover;
+}
+.image_container span {
+	top: -6px;
+	right: 8px;
+	color: white;
+	font-size: 28px;
+	font-weight: normal;
+	cursor: pointer;
+	background-color: red;
+}
+.bi-cloud-arrow-up{
+	font-size: 30px;
+}
+.card-header{
+	background-color: #f7c195;
+}
